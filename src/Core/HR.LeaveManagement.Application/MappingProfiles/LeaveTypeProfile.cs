@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
-using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;
-using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails;
+using HR.LeaveManagement.Application.Features.LeaveAllocation.Commands;
+using HR.LeaveManagement.Application.Features.LeaveAllocation.Queries.GetLeaveAllocationDetails;
+using HR.LeaveManagement.Application.Features.LeaveAllocation.Queries.GetLeaveAllocations;
 using HR.LeaveManagement.Domain;
 
 namespace HR.LeaveManagement.Application.MappingProfiles
@@ -9,8 +10,10 @@ namespace HR.LeaveManagement.Application.MappingProfiles
     {
         public LeaveTypeProfile()
         {
-            CreateMap<LeaveTypeDto, LeaveType>().ReverseMap();
-            CreateMap<LeaveType, LeaveTypeDetailsDto>().ReverseMap();
+            CreateMap<LeaveAllocationDto, LeaveAllocation>().ReverseMap();
+            CreateMap<LeaveAllocation, LeaveAllocationDetailsDto>().ReverseMap();
+            CreateMap<CreateLeaveAllocationCommand, LeaveAllocation>();
+            CreateMap<UpdateLeaveAllocationCommand, LeaveAllocation>();
         }
     }
 }
