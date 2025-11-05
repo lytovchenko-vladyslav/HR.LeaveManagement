@@ -16,4 +16,10 @@
       <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Features\LeaveRequest\Commands\" />
+      <Folder Include="Features\LeaveRequest\Queries\" />
+      <Folder Include="Features\LeaveRequest\Shared\" />
+    </ItemGroup>
+
 </Project>

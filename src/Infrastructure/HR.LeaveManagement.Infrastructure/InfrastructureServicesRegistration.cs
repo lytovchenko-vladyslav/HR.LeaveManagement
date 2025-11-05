@@ -1,5 +1,5 @@
-﻿using HR.LeaveManagement.Application.Contracts.Email;
-using HR.LeaveManagement.Application.Loging;
+﻿using HR.LeaveManagement.Application.Contracts.Persistence.Email;
+using HR.LeaveManagement.Application.Logging;
 using HR.LeaveManagement.Application.Models.Email;
 using HR.LeaveManagement.Infrastructure.EmailService;
 using HR.LeaveManagement.Infrastructure.Loging;

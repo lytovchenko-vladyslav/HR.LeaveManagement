@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using HR.LeaveManagement.Application.Contracts;
+using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails;
-using HR.LeaveManagement.Application.Loging;
+using HR.LeaveManagement.Application.Logging;
 using MediatR;
 
 namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetAllLeaveTypes;

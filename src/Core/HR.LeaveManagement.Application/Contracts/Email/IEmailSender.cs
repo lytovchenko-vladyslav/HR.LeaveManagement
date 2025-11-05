@@ -1,6 +1,6 @@
 ﻿using HR.LeaveManagement.Application.Models.Email;
 
-namespace HR.LeaveManagement.Application.Contracts.Email;
+namespace HR.LeaveManagement.Application.Contracts.Persistence.Email;
 
 public interface IEmailSender
 {

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using HR.LeaveManagement.Application.Contracts;
+using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.Exceptions;
-using HR.LeaveManagement.Application.Loging;
+using HR.LeaveManagement.Application.Logging;
 using MediatR;
 
 namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.UpdateLeaveType;
@@ -29,7 +29,7 @@ public class UpdateLeaveTypeCommandHandler : IRequestHandler<UpdateLeaveTypeComm
 
         if (validationResult.Errors.Any())
         {
-            _logger.LogWarnings("Validation errors in update request for {0} - {1}",
+            _logger.LogWarning("Validation errors in update request for {0} - {1}",
                 nameof(LeaveType), request.Id);
             throw new BadRequestException("Invalid Leave Type", validationResult);
         }

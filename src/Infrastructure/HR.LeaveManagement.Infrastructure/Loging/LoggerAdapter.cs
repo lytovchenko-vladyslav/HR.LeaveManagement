@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagement.Application.Loging;
+﻿using HR.LeaveManagement.Application.Logging;
 using Microsoft.Extensions.Logging;
 
 namespace HR.LeaveManagement.Infrastructure.Loging;
@@ -17,7 +17,7 @@ public class LoggerAdapter<T> : IAppLogger<T>
         _logger.LogInformation(message, args);
     }
 
-    public void LogWarnings(string message, params object[] args)
+    public void LogWarning(string message, params object[] args)
     {
         _logger.LogWarning(message, args);
     }
