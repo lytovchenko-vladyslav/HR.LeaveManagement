@@ -4,5 +4,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=40253726_002De128_002D4d17_002D902c_002D526b7614cda5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetLeaveTypeListTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::41F225CF-F165-40E0-8F70-3E958543CC95::net8.0::HR.LeaveManagement.Application.UnitTests.Features.LeaveTypes.Queries.GetLeaveTypeListQueryHandlerTests.GetLeaveTypeListTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A3249009-9C03-42C7-A259-27099DE03D98::net8.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateModifiedValue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::A3249009-9C03-42C7-A259-27099DE03D98::net8.0::HR.LeaveManagement.Persistence.IntegrationTests.HrDbContextTests.Save_SetDateCreatedValue&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
