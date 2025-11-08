@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence.IntegrationTests", "test\HR.LeaveManagement.Persistence.IntegrationTests\HR.LeaveManagement.Persistence.IntegrationTests.csproj", "{A3249009-9C03-42C7-A259-27099DE03D98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.BlazorUi", "src\UI\HR.LeaveManagement.BlazorUi\HR.LeaveManagement.BlazorUi.csproj", "{EDF1188E-8240-4F5A-8794-E1AD17234E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{A3249009-9C03-42C7-A259-27099DE03D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3249009-9C03-42C7-A259-27099DE03D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3249009-9C03-42C7-A259-27099DE03D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF1188E-8240-4F5A-8794-E1AD17234E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF1188E-8240-4F5A-8794-E1AD17234E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF1188E-8240-4F5A-8794-E1AD17234E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF1188E-8240-4F5A-8794-E1AD17234E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
